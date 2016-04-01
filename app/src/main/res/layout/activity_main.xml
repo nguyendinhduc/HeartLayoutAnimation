@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:heart="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="@drawable/bg"
+    android:fitsSystemWindows="true">
+
+    <com.ducnd.library.HeartLayout
+        android:id="@+id/heart_layout"
+        android:layout_width="100dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        heart:animLength="400dp"
+        heart:xPointFactor="40dp" />
+
+    <com.ducnd.library.HeartLayout
+        android:id="@+id/heart_layout2"
+        android:layout_width="200dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        heart:animLength="400dp"
+        heart:initX="150dp"
+        heart:xPointFactor="-20dp" />
+
+    <com.ducnd.library.HeartLayout
+        android:id="@+id/heart_layout3"
+        android:layout_width="200dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        heart:animLength="400dp"
+        heart:initX="150dp"
+        heart:xPointFactor="50dp" />
+
+</RelativeLayout>
